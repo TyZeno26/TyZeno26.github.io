@@ -471,6 +471,10 @@ var Gamification = (function () {
             return;
           }
           // If sizes are too similar, no absorption occurs (prevents unfair absorptions)
+          else{
+            
+            player1Size = player1Size;
+          }
         }
       }
     }
@@ -498,6 +502,7 @@ var Gamification = (function () {
             return;
           }
           // If sizes are too similar, no absorption occurs (prevents unfair absorptions)
+  
         }
       }
 
